@@ -53,7 +53,7 @@ func (o *FindVariantsURL) Build() (*url.URL, error) {
 
 	_basePath := o._basePath
 	if _basePath == "" {
-		_basePath = "/api/v1"
+		_basePath = "/api/flagr/v1"
 	}
 	result.Path = golangswaggerpaths.Join(_basePath, _path)
 

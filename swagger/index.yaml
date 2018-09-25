@@ -42,7 +42,7 @@ produces:
 - application/json
 schemes:
 - http
-basePath: "/api/v1"
+basePath: "/api/flagr/v1"
 paths:
   /flags:
     $ref: ./flags.yaml

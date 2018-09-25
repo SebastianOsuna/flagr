@@ -33,7 +33,7 @@ func init() {
     "title": "Flagr",
     "version": "1.0.10"
   },
-  "basePath": "/api/v1",
+  "basePath": "/api/flagr/v1",
   "paths": {
     "/evaluation": {
       "post": {
@@ -1751,7 +1751,7 @@ func init() {
     "title": "Flagr",
     "version": "1.0.10"
   },
-  "basePath": "/api/v1",
+  "basePath": "/api/flagr/v1",
   "paths": {
     "/evaluation": {
       "post": {

@@ -1,6 +1,7 @@
 FROM checkr/flagr-ci as builder
 WORKDIR /go/src/github.com/checkr/flagr
 ADD . .
+ENV NODE_ENV=production
 RUN cd ./browser/flagr-ui/ && yarn install && yarn run build
 RUN make build
 

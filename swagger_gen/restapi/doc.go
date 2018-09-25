@@ -8,7 +8,7 @@ Flagr is a feature flagging, A/B testing and dynamic configuration microservice
     Schemes:
       http
     Host: localhost
-    BasePath: /api/v1
+    BasePath: /api/flagr/v1
     Version: 1.0.10
 
     Consumes:
